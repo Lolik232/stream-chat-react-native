@@ -68,10 +68,6 @@
       "optional": true
     }
   },
-  "scripts": {
-    "prepack": " cp ../../README.md .",
-    "postpack": "rm README.md"
-  },
   "devDependencies": {
     "react-native": "^0.79.3"
   },
