@@ -19,7 +19,7 @@
     "src",
     "lib",
     "package.json",
-    "README.md"
+    "../README.md"
   ],
   "scripts": {
     "build": "rimraf lib && yarn run --silent build-translations && bob build && yarn run --silent copy-translations",
